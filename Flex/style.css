@@ -1,0 +1,135 @@
+body {
+    background-color: white;
+}
+
+.flex-container1 {
+    background: white; 
+    padding: 0px; 
+    display: flex; 
+    justify-content: center;  
+    align-items: center;     
+    width: 100%; 
+    height: 50px; 
+}
+
+.flex-container2{
+    border: 4px solid red; 
+    background: white; 
+    padding: 0; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: stretch; 
+    height: 530px; 
+}
+
+.cajita1, .cajita2, .cajita3, .cajita4, .cajita5, .cajita6 {
+    color: white; 
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;  
+    align-items: center;    
+    height: 26px; 
+    font-size: 14px;
+}
+
+.cajita1 {
+    background: rgb(2, 219, 118);
+    width: 4%;
+     
+     
+}
+
+.cajita2 {
+    background: rgb(0, 179, 255);
+    width: 7%;
+    
+}
+
+.cajita3 {
+    background: rgb(171, 77, 253);
+    width: 4%;
+  
+     
+}
+
+.cajita4 {
+    background: rgb(90, 90, 90);
+    width: 5%;
+     
+}
+
+.cajita5 {
+    background: rgb(255, 217, 4);
+    width: 12%;
+  
+}
+
+
+.cajita6 {
+    background: rgb(250, 107, 5);
+    width: 4%; 
+}
+
+
+ .c1, .c2, .c3, .c4 , .c5, .c6{
+    color: white; 
+    font-family: 'Times New Roman', Times, serif;
+    display: flex; 
+    justify-content: center;  
+    align-items: flex-start;     
+    font-size: 25px;
+}
+
+.c1 {
+    background: rgb(2, 219, 118);
+    width: 50%; 
+    height: 175px;
+     
+}
+
+.c2 {
+    background: rgb(0, 179, 255);
+    width: 50%; 
+    height: 175px;
+    
+}
+
+.c3 {
+    background: rgb(171, 77, 253);
+    width: 50%; 
+    height: 220px;
+  
+     
+}
+
+.c4 {
+    background: rgb(90, 90, 90);
+    width: 50%; 
+    height: 70px;
+
+     
+}
+
+.c5 {
+    background: rgb(255, 217, 4);
+    width: 49%; 
+    height: 270px;
+    position: absolute;
+    right: 10px;
+    left: 680px;
+    top: 62px;
+    
+}
+
+.c6 {
+    background: rgb(250, 107, 5);
+    width: 49%; 
+    height: 260px;
+    position: absolute;
+    right: 10px;
+    left: 680px;
+    top: 332px;
+}
+
+
